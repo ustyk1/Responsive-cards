@@ -1,0 +1,15 @@
+.card-2 {
+  &.card {
+    .image-block {
+      background: $lightCoral-to-lightYellow;
+    }
+    
+    .text-block {
+      .author {
+        &__avatar-wrap {
+            @include avatar-image('../img/sprites/avatar-2.png')
+        }
+      }
+    }
+  }
+}

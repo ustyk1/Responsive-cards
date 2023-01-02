@@ -1,0 +1,15 @@
+.card-1 {
+  &.card {
+    .image-block {
+      background: $dodgerBlue;
+    }
+    
+    .text-block {
+      .author {
+        &__avatar-wrap {
+          @include avatar-image('../img/sprites/avatar-1.png')
+        }
+      }
+    }
+  }
+}

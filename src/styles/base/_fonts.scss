@@ -1,0 +1,19 @@
+@include font-face(
+  "DM-Serif-Display",
+  "../fonts/dm-serif-display-v10-latin-regular", 
+  400, 
+  normal,
+);
+@include font-face(
+  "Open-Sans", 
+  "../fonts/open-sans-v34-latin-regular", 
+  400, 
+  normal,
+);
+@include font-face(
+  "Open-Sans", 
+  "../fonts/open-sans-v34-latin-600", 
+  600, 
+  normal,
+);
+

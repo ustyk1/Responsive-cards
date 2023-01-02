@@ -1,0 +1,16 @@
+.card-3 {
+  &.card {
+    margin-bottom: 0;
+    .image-block {
+      background: $lightSkyBlue;
+    }
+    
+    .text-block {
+      .author {
+        &__avatar-wrap {
+          @include avatar-image('../img/sprites/avatar-3.png')
+        }
+      }
+    }
+  }
+}
