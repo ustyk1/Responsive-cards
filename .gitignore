@@ -7,8 +7,8 @@
 .vscode
 # .github
 .env
-# .yarn/cache
-# .yarn/install-state.gz
+.yarn/cache
+.yarn/install-state.gz
 ehthumbs.db
 Thumbs.db
 _config.yml
