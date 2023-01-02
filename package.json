@@ -27,9 +27,6 @@
         "bem-m": "bem create $* -l src/blocks/modules",
         "preinstall": "npx npm-force-resolutions"
     },
-    "resolutions": {
-        "node-sass": "https://registry.npmjs.org/node-sass/-/node-sass-7.0.0.tgz"
-    },
     "devDependencies": {
         "@babel/core": "^7.17.5",
         "@babel/eslint-parser": "^7.17.0",
