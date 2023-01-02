@@ -31,6 +31,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - name: Install
+        if: always()
         run: yarn install --immutable
       - name: Build
         run: yarn run build
