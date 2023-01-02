@@ -33,6 +33,7 @@ jobs:
       - name: Install
         if: always()
         run: yarn install --immutable
+        if: always()
       - name: Build
         run: yarn run build
       - name: Setup Pages
